@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>HTML Quiz</title>
+        <style>
+            @import url(style.css);
+            body {
+                background-color: rgb(125, 192, 255);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+        <div id="header">
+        <h1>HTML Quiz</h1>
+        </div>
+        <form id="quiz">
+        
+        <h4>Each question carries 1 mark.<br>No negative marking.</h4>
+        
+        <h2>Which element is used to get highlighted text in HTML5?</h2>
+        <label for="javas"><input type="radio" name="variable" value="0" id="javas" />highlight tag</label>
+        <label for="scripts"><input type="radio" name="variable" value="0" id="scripts" />b tag</label>
+        <label for="script"><input type="radio" name="variable" value="1" id="script" />mark tag</label>
+        <label for="js"><input type="radio" name="variable" value="0" id="js"/>i tag</label>
+        
+        <h2>Which of the following is not a type of attribute for input tag?</h2>
+        <label for="sub_string"><input type="radio" name="sub" value="1" id="sub_string"/>day</label>
+        <label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join"/>week</label>
+        <label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" />month</label>
+        <label for="sub_condition"><input type="radio" name="sub" value="0" id="sub_condition" />time</label>
+        
+        <h2>What if one does not use the doctype in the starting of HTML document?</h2>
+        <label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" />Browser finds the document in standard mode</label>
+        <label for="cat_join"><input type="radio" name="con" value="1" id="cat_join" />Browser finds the document in quirky mode</label>
+        <label for="cat_info"><input type="radio" name="con" value="0" id="cat_info" />Browser stops working</label>
+        <label for="cat_condition"><input type="radio" name="con" value="0" id="cat_condition" />Browser crashes after showing the page</label>
+        
+        <h2>Which works similar to "i" element?</h2>
+        <label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />strong</label>
+        <label for="if_join"><input type="radio" name="ifstate" value="1" id="if_join" />em</label>
+        <label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />b</label>
+        <label for="if_condition"><input type="radio" name="ifstate"  value="0" id="if_condition" />blockquote</label>
+        
+        <button type="submit" value="Check">Check Answers</button>
+        
+        </form>
+            
+        <p>You scored <span id="grade">_____</span> out of 4.</p>
+        <p id="grade2"></p>
+        </div>
+        <script type="text/JavaScript" src="script.js"></script>
+    </body>
+</html>
