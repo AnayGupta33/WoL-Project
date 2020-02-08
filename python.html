@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Python Quiz</title>
+        <style>
+            @import url(style.css);
+            body {
+                background-color: rgb(248, 76, 76);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+        <div id="header">
+        <h1>Python Quiz</h1>
+        </div>
+        <form id="quiz">
+        
+        <h4>Each question carries 1 mark.<br>No negative marking.</h4>
+        
+        <h2>Given a function that does not return any value, what value is shown when executed at the shell?</h2>
+        <label for="javas"><input type="radio" name="variable" value="0" id="javas" />int</label>
+        <label for="scripts"><input type="radio" name="variable" value="0" id="scripts" />bool</label>
+        <label for="script"><input type="radio" name="variable" value="1" id="script" />None</label>
+        <label for="js"><input type="radio" name="variable" value="0" id="js"/>void</label>
+        
+        <h2>Which module in Python supports regular expressions?</h2>
+        <label for="sub_string"><input type="radio" name="sub" value="1" id="sub_string"/>re</label>
+        <label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join"/>regex</label>
+        <label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" />pyregex</label>
+        <label for="sub_condition"><input type="radio" name="sub" value="0" id="sub_condition" />none of the above</label>
+        
+        <h2>Given a string s = “Welcome”, which of the following code is incorrect?</h2>
+        <label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" />print s[0]</label>
+        <label for="cat_join"><input type="radio" name="con" value="0" id="cat_join" />print s.lower()</label>
+        <label for="cat_info"><input type="radio" name="con" value="1" id="cat_info" />s[1]='r'</label>
+        <label for="cat_condition"><input type="radio" name="con" value="0" id="cat_condition" />print s.strip()</label>
+        
+        <h2>To start Python from the command prompt, use the command ______</h2>
+        <label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />run python</label>
+        <label for="if_join"><input type="radio" name="ifstate" value="1" id="if_join" />python</label>
+        <label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />./python</label>
+        <label for="if_condition"><input type="radio" name="ifstate"  value="0" id="if_condition" />exe python</label>
+        
+        <button type="submit" value="Check">Check Answers</button>
+        
+        </form>
+            
+        <p>You scored <span id="grade">_____</span> out of 4.</p>
+        <p id="grade2"></p>
+        </div>
+        <script type="text/JavaScript" src="script.js"></script>
+    </body>
+</html>
