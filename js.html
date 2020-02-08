@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>JavaScript Quiz</title>
+    </head>
+    <body>
+        <div id="main">
+        <div id="header">
+        <h1>JavaScript Quiz</h1>
+        </div>
+        <form id="quiz">
+            <h4>Each question carries 1 mark.<br>No negative marking.</h4>
+        <h2>What is the HTML tag under which one can write the JavaScript code?</h2>
+        <label for="javas"><input type="radio" name="variable" value="0" id="javas" />javascipt tag</label>
+        <label for="scripts"><input type="radio" name="variable" value="0" id="scripts" />scripts tag</label>
+        <label for="script"><input type="radio" name="variable" value="1" id="script" />script tag</label>
+        <label for="js"><input type="radio" name="variable" value="0" id="js"/>js tag</label>
+        
+        <h2>Which of the following is not considered as an error in JavaScript?</h2>
+        <label for="sub_string"><input type="radio" name="sub" value="1" id="sub_string"/>Division by zero</label>
+        <label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join"/>Syntax Error</label>
+        <label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" />Miising bracket</label>
+        <label for="sub_condition"><input type="radio" name="sub" value="0" id="sub_condition" />Missing semicolons</label>
+        
+        <h2>What can a function definition expression also be called?</h2>
+        <label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" />function prototype</label>
+        <label for="cat_join"><input type="radio" name="con" value="1" id="cat_join" />function literal</label>
+        <label for="cat_info"><input type="radio" name="con" value="0" id="cat_info" />function calling</label>
+        <label for="cat_condition"><input type="radio" name="con" value="0" id="cat_condition" />function declaration</label>
+        
+        <h2>What are the three important manipulations done in a for loop on a loop variable?</h2>
+        <label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />Updation, Incrementation, Initialization</label>
+        <label for="if_join"><input type="radio" name="ifstate" value="1" id="if_join" />Initialization,Testing, Updation</label>
+        <label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />Testing, Updation, Testing</label>
+        <label for="if_condition"><input type="radio" name="ifstate"  value="0" id="if_condition" />Initialization,Testing, Incrementation</label>
+        
+        <button type="submit" value="Check">Check Answers</button>
+        
+        </form>
+            
+        <p>You scored <span id="grade">_____</span> out of 4.</p>
+        <p id="grade2"></p>
+        </div>
+        <script type="text/JavaScript" src="script.js"></script>
+    </body>
+</html>

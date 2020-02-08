@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>CSS Quiz</title>
+        <style>
+            @import url(style.css);
+            body {
+                background-color: rgb(255, 242, 124);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+        <div id="header">
+        <h1>CSS Quiz</h1>
+        </div>
+        <form id="quiz">
+            <h4>Each question carries 1 mark.<br>No negative marking.</h4>
+        <h2>Which of the following tag can be used to apply document-wide CSS in a document’s head element?</h2>
+        <label for="javas"><input type="radio" name="variable" value="0" id="javas" />meta tag</label>
+        <label for="scripts"><input type="radio" name="variable" value="0" id="scripts" />script tag</label>
+        <label for="script"><input type="radio" name="variable" value="1" id="script" />style tag</label>
+        <label for="js"><input type="radio" name="variable" value="0" id="js"/>title tag</label>
+        
+        <h2>Which of the following represents a comment?</h2>
+        <label for="sub_string"><input type="radio" name="sub" value="0" id="sub_string"/>/!– comments –!/</label>
+        <label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join"/>/! comments !/</label>
+        <label for="sub_info"><input type="radio" name="sub" value="1" id="sub_info" />/* comments */</label>
+        <label for="sub_condition"><input type="radio" name="sub" value="0" id="sub_condition" />None of the above</label>
+        
+        <h2>By applying an ___________ a style can be applied to just a single tag.</h2>
+        <label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" />element rule</label>
+        <label for="cat_join"><input type="radio" name="con" value="1" id="cat_join" />id rule</label>
+        <label for="cat_info"><input type="radio" name="con" value="0" id="cat_info" />class rule</label>
+        <label for="cat_condition"><input type="radio" name="con" value="0" id="cat_condition" />none of the above</label>
+        
+        <h2>Which of the following property sets the amount of spacing between letters?</h2>
+        <label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />letter-space</label>
+        <label for="if_join"><input type="radio" name="ifstate" value="1" id="if_join" />letter-spacing</label>
+        <label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />line-height</label>
+        <label for="if_condition"><input type="radio" name="ifstate"  value="0" id="if_condition" />space</label>
+        
+        <button type="submit" value="Check">Check Answers</button>
+        
+        </form>
+            
+        <p>You scored <span id="grade">_____</span> out of 4.</p>
+        <p id="grade2"></p>
+        </div>
+        <script type="text/JavaScript" src="script.js"></script>
+    </body>
+</html>
